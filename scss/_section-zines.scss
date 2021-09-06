@@ -8,8 +8,13 @@
 .fuente-card-texto {
    @extend %card-texto-font;
 }
+
 .fuente-card-titulo {
     @extend %card-title-font;
+}
+
+.fuente-sub-title {
+    @extend %sub-title-font;
 }
 
 @mixin parametros-sections ($margin, $font-size, $font-color, $bg-color) {
@@ -26,4 +31,9 @@
 .section-2_zines {
     @include parametros-sections(0% 30%, 80%,white, black)
 }
+
+.fondo {
+    background-image: url(https://media.istockphoto.com/vectors/seamless-rhombus-background-pattern-black-and-white-wallpaper-vector-vector-id1091790458?s=612x612);
+}
+
 

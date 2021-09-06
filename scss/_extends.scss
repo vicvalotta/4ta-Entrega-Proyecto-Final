@@ -16,6 +16,14 @@
     text-transform: uppercase;
 }
 
+%sub-title-font {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 2% 30%
+}
+
 %bg-header {
     margin: 2% 3%;
     display: inline-block;
