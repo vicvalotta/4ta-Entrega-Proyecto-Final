@@ -15,6 +15,13 @@
 
 .fuente-sub-title {
     @extend %sub-title-font;
+
+}
+
+.form-contact {
+    @extend %sub-title-font;
+    margin: 5% 8%;
+    text-decoration:overline;    
 }
 
 @mixin parametros-sections ($margin, $font-size, $font-color, $bg-color) {
@@ -25,15 +32,31 @@
 }
 
 .section_zines {
-    @include parametros-sections(0% 11%, 80%, black, white)
+    @include parametros-sections(0% 11%, 80%, black, white);
 }
 
 .section-2_zines {
-    @include parametros-sections(0% 30%, 80%,white, black)
+    @include parametros-sections(0% 30%, 80%,white, black);
 }
 
 .fondo {
-    background-image: url(https://media.istockphoto.com/vectors/seamless-rhombus-background-pattern-black-and-white-wallpaper-vector-vector-id1091790458?s=612x612);
+    background-image: url(https://st3.depositphotos.com/3930503/12559/i/950/depositphotos_125593494-stock-photo-marble-ink-colorful-brown-marble.jpg);
 }
 
+.mapa-imprentas {
+       padding: 0% 12%;
+   }
 
+  
+.boton-like {
+    border: none;
+    background-color: white;
+    color: white;
+    ion-icon{
+        outline-color: black;
+    }
+    transition: 1s;
+    &:focus {
+        color: black;
+    }
+}

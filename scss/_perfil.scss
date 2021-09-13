@@ -1,0 +1,43 @@
+@import "extends";
+@import "section-zines";
+
+.grid-perfil {
+    margin: 2% 11%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;    
+    height: 300px;
+}
+
+.area {
+    flex-grow: 1;
+    flex-basis: 20%;  
+    background-color: white;
+}
+.area-foto {
+    height: 70%;
+    width: 70%;
+    border-radius: 40%;
+}
+
+.boton-foto-icon {
+    position: absolute;
+    bottom: 32%;
+    right: 80%;
+    background-color: transparent;
+    border:transparent;
+    color: transparent;
+    transition: 1s;
+    &:hover {
+        color: white;
+    }
+
+}
+.area-1 {
+    flex-grow: 2;
+    flex-basis: 80%;    
+    background-color: white;
+}
+

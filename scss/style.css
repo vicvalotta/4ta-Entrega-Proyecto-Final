@@ -17,13 +17,22 @@
 }
 
 .fuente-card-titulo, .title-sections {
-  font-family: "Roboto Mono", monospace;
   font-family: "Staatliches", cursive;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.form-contact, .fuente-sub-title {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  padding: 2% 12%;
 }
 
 .background-color-header {
-  margin: 2% 3%;
+  margin: 0% 5% 1% 5%;
   display: inline-block;
   position: sticky;
   top: 0;
@@ -42,10 +51,21 @@
   transform: rotate(360deg);
 }
 
+.marca {
+  margin: 18px;
+}
+
 .foto_perfil {
   width: 25%;
   text-align: center;
   border-radius: 40px;
+}
+
+.fondo-header {
+  background-image: url(https://previews.123rf.com/images/maddyz15/maddyz151608/maddyz15160800029/61668484-abstract-hand-painted-ink-marble-texture-background-the-art-of-marbling-.jpg);
+  background-size: cover;
+  background-position: top center;
+  margin: 0%;
 }
 
 .marca {
@@ -62,13 +82,22 @@
 }
 
 .fuente-card-titulo, .title-sections {
-  font-family: "Roboto Mono", monospace;
   font-family: "Staatliches", cursive;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.form-contact, .fuente-sub-title {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  padding: 2% 12%;
 }
 
 .background-color-header {
-  margin: 2% 3%;
+  margin: 0% 5% 1% 5%;
   display: inline-block;
   position: sticky;
   top: 0;
@@ -87,6 +116,11 @@
   padding: 1% 12%;
 }
 
+.form-contact {
+  margin: 5% 8%;
+  text-decoration: overline;
+}
+
 .section_zines {
   margin: 0% 11%;
   font-size: 80%;
@@ -99,6 +133,27 @@
   font-size: 80%;
   color: white;
   background-color: black;
+}
+
+.fondo {
+  background-image: url(https://st3.depositphotos.com/3930503/12559/i/950/depositphotos_125593494-stock-photo-marble-ink-colorful-brown-marble.jpg);
+}
+
+.mapa-imprentas {
+  padding: 0% 12%;
+}
+
+.boton-like {
+  border: none;
+  background-color: white;
+  color: white;
+  transition: 1s;
+}
+.boton-like ion-icon {
+  outline-color: black;
+}
+.boton-like:focus {
+  color: black;
 }
 
 .marca {
@@ -115,13 +170,22 @@
 }
 
 .title-sections, .fuente-card-titulo {
-  font-family: "Roboto Mono", monospace;
   font-family: "Staatliches", cursive;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.fuente-sub-title, .form-contact {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  padding: 2% 12%;
 }
 
 .background-color-header {
-  margin: 2% 3%;
+  margin: 0% 5% 1% 5%;
   display: inline-block;
   position: sticky;
   top: 0;
@@ -134,4 +198,177 @@
   text-align: center;
   border-radius: 6px;
   transition: all 2s;
+}
+
+.marca {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 35px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  padding: 0% 30%;
+}
+
+.fuente-card-texto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.title-sections, .fuente-card-titulo {
+  font-family: "Staatliches", cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.fuente-sub-title, .form-contact {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  padding: 2% 12%;
+}
+
+.background-color-header {
+  margin: 0% 5% 1% 5%;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+}
+
+.logo_espiral {
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+  transition: all 2s;
+}
+
+.marca {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 35px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  padding: 0% 30%;
+}
+
+.fuente-card-texto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.title-sections, .fuente-card-titulo {
+  font-family: "Staatliches", cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.fuente-sub-title, .form-contact {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  padding: 2% 12%;
+}
+
+.background-color-header {
+  margin: 0% 5% 1% 5%;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+}
+
+.logo_espiral {
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+  transition: all 2s;
+}
+
+.title-sections {
+  padding: 1% 12%;
+}
+
+.form-contact {
+  margin: 5% 8%;
+  text-decoration: overline;
+}
+
+.section_zines {
+  margin: 0% 11%;
+  font-size: 80%;
+  color: black;
+  background-color: white;
+}
+
+.section-2_zines {
+  margin: 0% 30%;
+  font-size: 80%;
+  color: white;
+  background-color: black;
+}
+
+.fondo {
+  background-image: url(https://st3.depositphotos.com/3930503/12559/i/950/depositphotos_125593494-stock-photo-marble-ink-colorful-brown-marble.jpg);
+}
+
+.mapa-imprentas {
+  padding: 0% 12%;
+}
+
+.boton-like {
+  border: none;
+  background-color: white;
+  color: white;
+  transition: 1s;
+}
+.boton-like ion-icon {
+  outline-color: black;
+}
+.boton-like:focus {
+  color: black;
+}
+
+.grid-perfil {
+  margin: 2% 11%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.area {
+  flex-grow: 1;
+  flex-basis: 20%;
+  background-color: white;
+}
+
+.area-foto {
+  height: 70%;
+  width: 70%;
+  border-radius: 40%;
+}
+
+.boton-foto-icon {
+  position: absolute;
+  bottom: 32%;
+  right: 80%;
+  background-color: transparent;
+  border: transparent;
+  color: transparent;
+  transition: 1s;
+}
+.boton-foto-icon:hover {
+  color: white;
+}
+
+.area-1 {
+  flex-grow: 2;
+  flex-basis: 80%;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */

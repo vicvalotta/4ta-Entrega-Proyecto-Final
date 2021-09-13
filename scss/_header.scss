@@ -15,10 +15,19 @@
 
 .marca {
     @extend %title-font;
+    margin: 18px ;
 }
 
 .foto_perfil {
-    width: 25%;;
+    width: 25%;
     text-align: center;
     border-radius: 40px;
 }
+
+.fondo-header {
+    background-image: url(https://previews.123rf.com/images/maddyz15/maddyz151608/maddyz15160800029/61668484-abstract-hand-painted-ink-marble-texture-background-the-art-of-marbling-.jpg);
+    background-size:cover;
+    background-position: top center;
+    margin: 0%;
+    
+   }

@@ -38,7 +38,7 @@
 </head>
 <body>
  <!--Inicio Header-->
- <header class="container background-color-header">
+ <header class="container background-color-header fondo-header">
     <div class="row">
         <div class="col-lg-2 col-md-2 col-sm-2" ><a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             <img class="logo_espiral" src="images/Espiral.png" alt="logo_espiral">
@@ -86,9 +86,6 @@
                 </ul>
               </div>
               <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Mensajes</a>
-              </div>
-              <div class="dropdown mt-3">
                 <a class="btn btn-dark" href="Crear-funzi.html" role="button">Crear un Funzi</a>
               </div>
               <div class="dropdown mt-3">
@@ -110,6 +107,8 @@
 <!--Section-->
 <h2 class="title-sections">Buscador de Imprentas</h2>
 <h3 class="fuente-sub-title">Busca en el mapa la imprenta más cercana de tu zona para imprimir todos tus Funzis Favoritos</h3>
+
+<section class="fuente-sub-title">
 <div class="btn-group">
   <button class="btn btn-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Selecciona tu País
@@ -126,7 +125,6 @@
     Selecciona tu Provincia
   </button>
   <ul class="dropdown-menu">
-    
     <li><a class="dropdown-item" href="#">Buenos Aires</a></li>
     <li><a class="dropdown-item" href="#">Córdoba</a></li>
     <li><a class="dropdown-item" href="#">Mendoza</a></li>
@@ -134,13 +132,13 @@
     <li><a class="dropdown-item" href="#">Santa Cruz</a></li>
     <li><a class="dropdown-item" href="#">Santa Fe</a></li>
     <li><a class="dropdown-item" href="#">Santiago de Chile</a></li>
-    
   </ul>
 </div>
 
 <div class="btn-group">
   <button class="btn btn-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Selecciona tu Ciudad
+  </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="#">Bariloche</a></li>
     <li><a class="dropdown-item" href="#">Buenos Aires</a></li>
@@ -151,10 +149,14 @@
     <li><a class="dropdown-item" href="#">Santiago de Chile</a></li>
   </ul>
 </div>
+</section>
 
+<section class="mapa-imprentas">
 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d52553.08007073719!2d-58.455045325760345!3d-34.589808497118355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1simprentas!5e0!3m2!1ses!2sar!4v1630889872674!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
 
-<h3 class="fuente-sub-title-font">¿Querés que tu imprenta aparezca en los listados? ¡Contactanos!</h3>
+<section class="section_zines">
+<h3 class="form-contact">¿Querés que tu imprenta aparezca en los listados? ¡Contáctanos!</h3>
 
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -164,10 +166,11 @@
   <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje:</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+<div class="d-grid gap-2 d-md-flex justify-content-md-end pb-3">
   <button class="btn btn-dark me-md-2" type="button">¡Enviar!</button>
-  
 </div>
+
+</section>
 <!--Fin Section-->
 
 

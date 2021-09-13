@@ -3,7 +3,7 @@
     font-size: 35px;
     text-decoration-line: none;
     color: black;
-    padding: 0% 30%
+    padding: 0% 30%;
 } 
 
 %card-texto-font {
@@ -11,21 +11,23 @@
 }
 
 %card-title-font {
-    font-family: 'Roboto Mono', monospace;
     font-family: 'Staatliches', cursive;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 %sub-title-font {
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
     color: black;
-    padding: 2% 30%
+    padding: 2% 12%
 }
 
+
 %bg-header {
-    margin: 2% 3%;
+    margin: 0% 5% 1% 5%;
     display: inline-block;
     position: sticky;
     top: 0;
