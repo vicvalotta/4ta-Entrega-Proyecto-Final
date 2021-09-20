@@ -1,6 +1,7 @@
 @import "extends";
 @import "section-zines";
 
+
 .grid-perfil {
     margin: 2% 11%;
     display: flex;
@@ -16,11 +17,14 @@
     flex-basis: 20%;  
     background-color: white;
 }
+
 .area-foto {
     height: 70%;
     width: 70%;
     border-radius: 40%;
 }
+
+
 
 .boton-foto-icon {
     position: absolute;
@@ -39,5 +43,12 @@
     flex-grow: 2;
     flex-basis: 80%;    
     background-color: white;
+}
+
+.mi-funzi-card {
+    transition: 0s;
+    &:hover {
+        color: transparent;
+    }
 }
 

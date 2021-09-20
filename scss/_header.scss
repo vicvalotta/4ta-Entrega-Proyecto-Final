@@ -12,10 +12,20 @@
     }
 }
 
+@media only screen and (min-width:320px) {
+    .logo_espiral{
+        width: 5%;
+        size: 5%;
+    }
+    .fondo-header {
+
+    }
+}
+
 
 .marca {
     @extend %title-font;
-    margin: 18px ;
+    margin: 0px ;
 }
 
 .foto_perfil {

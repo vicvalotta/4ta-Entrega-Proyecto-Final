@@ -48,15 +48,11 @@
    }
 
   
-.boton-like {
-    border: none;
-    background-color: white;
-    color: white;
-    ion-icon{
-        outline-color: black;
-    }
-    transition: 1s;
+.botones-sociales {
+    padding: 0% 3%;
+    transition: 0s;
     &:focus {
         color: black;
     }
 }
+

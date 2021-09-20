@@ -38,69 +38,86 @@
 </head>
 <body>
  <!--Inicio Header-->
- <header class="container background-color-header fondo-header">
-    <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2" ><a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <img class="logo_espiral" src="images/Espiral.png" alt="logo_espiral">
-          </a>
-          
-          
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">¡Hola Vic!</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+ <nav class="navbar navbar-light bg-light fixed-top">
+
+  <div class="container-fluid">
+    <a class="navbar-brand marca pe-5" href="#">Funzis</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¡Hola Vic!</h5>
+        
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div>
+        <img class="foto_perfil ps-3" src="images/Foto_Perfil.PNG" alt="Foto_Perfil">
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <div class="dropdown mt-3">
+              <a class="btn btn-dark" href="index.html" role="button">Home</a>
+            </div>              
+          </li>
+          <li class="nav-item">
+            <div class="dropdown mt-3">
+              <a class="btn btn-dark" href="Mi-Perfil.html" role="button">Mi Perfil</a>
             </div>
-            <div class="offcanvas-body">
-              <div>
-                <img class="foto_perfil" src="images/Foto_Perfil.PNG" alt="Foto_Perfil">
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Home</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Mi Perfil</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Mis Funzis</a>
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                  Funzis Favs
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Buenas noches, pun pun</a></li>
-                  <li><a class="dropdown-item" href="#">Uzumaki</a></li>
-                  <li><a class="dropdown-item" href="#">Sintonia cerebral</a></li>
-                  <li><a class="dropdown-item" href="Funzis-favs.html">Ver todos</a></li>
-                </ul>
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                  Autorxs Favoritos
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Junji Ito</a></li>
-                  <li><a class="dropdown-item" href="#">Inio Asano</a></li>
-                  <li><a class="dropdown-item" href="#">Bombas para desayunar</a></li>
-                  <li><a class="dropdown-item" href="Autorxs-favs.html">Ver todxs</a></li>
-                </ul>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="Crear-funzi.html" role="button">Crear un Funzi</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Imprentas</a>
-              </div>    
+          </li>
+          <li class="nav-item dropdown">
+            <div class="dropdown mt-3">
+              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Funzis Favs
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Buenas noches, pun pun</a></li>
+                <li><a class="dropdown-item" href="#">Uzumaki</a></li>
+                <li><a class="dropdown-item" href="Funzis-favs.html">Ver todos</a></li>
+              </ul>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-10 marca">Funzis</div>
-        <div class="input-group col-lg-8 col-md-12 col-sm-12">
-            <input type="text" class="form-control" placeholder="Funzi" aria-label="Username" aria-describedby="input-group-button-right">
-            <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Buscar</button>
-          </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <div class="dropdown mt-3">
+              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Autorxs Favoritos
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Junji Ito</a></li>
+                <li><a class="dropdown-item" href="#">Inio Asano</a></li>
+                <li><a class="dropdown-item" href="Autorxs-favs.html">Ver todxs</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <div class="dropdown mt-3">
+              <a class="btn btn-dark" href="Crear-funzi.html" role="button">Subir un Funzi</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <div class="dropdown mt-3">
+              <a class="btn btn-dark" href="Imprentas.html" role="button">Imprentas</a>
+            </div> 
+          </li>
+            
+        </ul>
+        <form class="d-flex pt-3">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-</header>
+
+  </div>
+</nav>
 
 <!--Fin Header-->
 

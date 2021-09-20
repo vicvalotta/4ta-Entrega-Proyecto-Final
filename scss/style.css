@@ -5,11 +5,10 @@
 
 .marca {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   color: black;
-  padding: 0% 30%;
 }
 
 .fuente-card-texto {
@@ -51,8 +50,14 @@
   transform: rotate(360deg);
 }
 
+@media only screen and (min-width: 320px) {
+  .logo_espiral {
+    width: 5%;
+    size: 5%;
+  }
+}
 .marca {
-  margin: 18px;
+  margin: 0px;
 }
 
 .foto_perfil {
@@ -70,11 +75,10 @@
 
 .marca {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   color: black;
-  padding: 0% 30%;
 }
 
 .fuente-card-texto {
@@ -143,26 +147,20 @@
   padding: 0% 12%;
 }
 
-.boton-like {
-  border: none;
-  background-color: white;
-  color: white;
-  transition: 1s;
+.botones-sociales {
+  padding: 0% 3%;
+  transition: 0s;
 }
-.boton-like ion-icon {
-  outline-color: black;
-}
-.boton-like:focus {
+.botones-sociales:focus {
   color: black;
 }
 
 .marca {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   color: black;
-  padding: 0% 30%;
 }
 
 .fuente-card-texto {
@@ -202,11 +200,10 @@
 
 .marca {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   color: black;
-  padding: 0% 30%;
 }
 
 .fuente-card-texto {
@@ -246,11 +243,10 @@
 
 .marca {
   font-family: "Chakra Petch", sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   color: black;
-  padding: 0% 30%;
 }
 
 .fuente-card-texto {
@@ -319,16 +315,11 @@
   padding: 0% 12%;
 }
 
-.boton-like {
-  border: none;
-  background-color: white;
-  color: white;
-  transition: 1s;
+.botones-sociales {
+  padding: 0% 3%;
+  transition: 0s;
 }
-.boton-like ion-icon {
-  outline-color: black;
-}
-.boton-like:focus {
+.botones-sociales:focus {
   color: black;
 }
 
@@ -371,4 +362,11 @@
   flex-grow: 2;
   flex-basis: 80%;
   background-color: white;
+}
+
+.mi-funzi-card {
+  transition: 0s;
+}
+.mi-funzi-card:hover {
+  color: transparent;
 }/*# sourceMappingURL=style.css.map */

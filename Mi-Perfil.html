@@ -33,69 +33,87 @@
 <body>
 
     <!--Inicio Header-->
-<header class="container background-color-header fondo-header">
-    <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2" ><a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <img class="logo_espiral" src="images/Espiral.png" alt="logo_espiral">
-          </a>
-          
-          
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">¡Hola Vic!</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <div>
-                <img class="foto_perfil" src="images/Foto_Perfil.PNG" alt="Foto_Perfil">
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Home</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Mi Perfil</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Mis Funzis</a>
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                  Funzis Favs
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Buenas noches, pun pun</a></li>
-                  <li><a class="dropdown-item" href="#">Uzumaki</a></li>
-                  <li><a class="dropdown-item" href="#">Sintonia cerebral</a></li>
-                  <li><a class="dropdown-item" href="Funzis-favs.html">Ver todos</a></li>
-                </ul>
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                  Autorxs Favoritos
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Junji Ito</a></li>
-                  <li><a class="dropdown-item" href="#">Inio Asano</a></li>
-                  <li><a class="dropdown-item" href="#">Bombas para desayunar</a></li>
-                  <li><a class="dropdown-item" href="Autorxs-favs.html">Ver todxs</a></li>
-                </ul>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="Crear-funzi.html" role="button">Crear un Funzi</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Imprentas</a>
-              </div>    
-            </div>
+    
+    <nav class="navbar navbar-light bg-light fixed-top">
+
+      <div class="container-fluid">
+        <a class="navbar-brand marca pe-5" href="#">Funzis</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¡Hola Vic!</h5>
+            
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div>
+            <img class="foto_perfil ps-3" src="images/Foto_Perfil.PNG" alt="Foto_Perfil">
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="index.html" role="button">Home</a>
+                </div>              
+              </li>
+              <li class="nav-item">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="Mi-Perfil.html" role="button">Mi Perfil</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Funzis Favs
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Buenas noches, pun pun</a></li>
+                    <li><a class="dropdown-item" href="#">Uzumaki</a></li>
+                    <li><a class="dropdown-item" href="Funzis-favs.html">Ver todos</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Autorxs Favoritos
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Junji Ito</a></li>
+                    <li><a class="dropdown-item" href="#">Inio Asano</a></li>
+                    <li><a class="dropdown-item" href="Autorxs-favs.html">Ver todxs</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="Crear-funzi.html" role="button">Subir un Funzi</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="Imprentas.html" role="button">Imprentas</a>
+                </div> 
+              </li>
+                
+            </ul>
+            <form class="d-flex pt-3">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-10 marca">Funzis</div>
-        <div class="input-group col-lg-8 col-md-12 col-sm-12">
-            <input type="text" class="form-control" placeholder="Funzi" aria-label="Username" aria-describedby="input-group-button-right">
-            <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Buscar</button>
-          </div>
-    </div>
-</header>
+
+      </div>
+    </nav>
 
 <!--Fin Header-->
 
@@ -138,24 +156,52 @@
         <label for="validationDefault05" class="form-label">País</label>
         <input type="text" class="form-control" id="validationDefault05" required>
       </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-          <label class="form-check-label" for="invalidCheck2">
-            Agree to terms and conditions
-          </label>
-        </div>
-      </div>
+      
       <div class="col-12">
         <button class="btn btn-primary" type="submit">Actualizar Datos</button>
       </div>
     </form>
   </div>
-  
+</section>
+<!--Fin Section-->
 
+<!--Section Mis Funzis-->
+<section>
+  <h2 class="title-sections">Mis Funzis subidos</h2>
 </section>
 
-<!--Fin Section-->
+  <section class="container section_zines">
+  <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-md-1 g-4" style="width: 60rem;">
+  <div class="col">
+    <div class="card w-80">
+      <img src="images/feminizine.jpg" class="card-img-top" alt="fanzi_Feminizine">
+      <div class="card-body">
+          <h5 class="card-title fuente-card-titulo">Feminizine #1 <p>Bombas para desayunar</p></h5>
+           <p class="card-text fuente-card-texto">Un día te despiertas y decides que quieres hacer algo grande, darle un giro a tu vida. Y te preguntas "¿Qué puedo hacer yo? ¿Dedicarle una estatua gigante de bronce a mi ídolo? ¿Repoblar un bosque? ¿Cometer un asesinato que cambie el curso de la historia? ¿Tener un hijo?" Después te relajas un poco y decides poner la mira un poco más abajo: "¡ya lo sé! hacer un fanzine de imprenta" </p>
+       </div>
+       <ul class="list-group list-group-flush">
+           <li class="list-group-item">#Zine #Feminismo</li>
+           <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="pencil-outline"></ion-icon></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="trash-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card w-80">
+      <img src="images/portadafachas.jpg" class="card-img-top" alt="fanzi_fachas">
+      <div class="card-body">
+          <h5 class="card-title fuente-card-titulo">Odio a los fachas #1 <p>Bombas para desayunar</p></h5>
+          <p class="card-text fuente-card-texto">El confinamiento la verdad es que no dio para mucho aunque tuvo algo ¿bueno? Y es que retomé mi actividad "poética". Después de publicar mis opus poeticuorum completas bajo el título de Todas mis angustias juntas no había vuelto a darle al mini relato poético o como lo queráis llamar. Pero fue estar encerrada escuchando las conversaciones fachunas de mis vecinos y las caceroladas del demonio y tuve que hacer algo que me sirviese para canalizar la furia. De ahí surge Odio a los fachas, un pequeño poemario que en su edición física es joyita impresa en riso en el taller de mi colegui y vecina Amalia. </p>
+      </div>
+      <ul class="list-group list-group-flush">
+          <li class="list-group-item">#Zine #Feminismo</li>
+          <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="pencil-outline"></ion-icon></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="trash-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
+        </ul>
+    </div>
+  </div>
+</section>
+<!-- Fin Section Mis Funzis-->
+
     
 <!--Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>

@@ -28,90 +28,125 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Fanzis Valotta</title>
+    <!--SEO-->
+    <meta name="description" content="Sitio para subir fanzines, mangas, historias gráficas independientes 
+    para leer online, descargar o imprimir.">
+
+    <meta name="keywords" content="Fanzin, zines, manga, comic, historias gráficas, zine indie, zine independiente,
+    funzin, leer online, descargar fanzines gratis, zine feminista, manga gratis, manga online, descargar manga,
+    historia gráfica online, historia gráfica gratis, descargar historia gráfica.">
+
+    <meta property= "og: title" content="Sitio para leer fanzines, historias graficas, mangas y más">
+    <meta property = "og:descrption" content="Sitio para subir fanzines, mangas, historias gráficas independientes 
+    para leer online, descargar o imprimir." >
+    <meta property="og:site_name" content="Fanzines">
+    <meta property= "og:locale" content="es_ES">
+    
+     <title>Fanzis - Sitio para leer fanzines, historias graficas, mangas y más </title>
 </head>
 <body>
 
     <!--Inicio Header-->
-<header class="container background-color-header fondo-header">
-    <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2" ><a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <img class="logo_espiral" src="images/Espiral.png" alt="logo_espiral">
-          </a>
-          
-          
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">¡Hola Vic!</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <div>
-                <img class="foto_perfil" src="images/Foto_Perfil.PNG" alt="Foto_Perfil">
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="index.html" role="button">Home</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="Mi-Perfil.html" role="button">Mi Perfil</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="Mis-Funzis.html" role="button">Mis Funzis</a>
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                  Funzis Favs
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Buenas noches, pun pun</a></li>
-                  <li><a class="dropdown-item" href="#">Uzumaki</a></li>
-                  <li><a class="dropdown-item" href="#">Sintonia cerebral</a></li>
-                  <li><a class="dropdown-item" href="Funzis-favs.html">Ver todos</a></li>
-                </ul>
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                  Autorxs Favoritos
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Junji Ito</a></li>
-                  <li><a class="dropdown-item" href="#">Inio Asano</a></li>
-                  <li><a class="dropdown-item" href="#">Bombas para desayunar</a></li>
-                  <li><a class="dropdown-item" href="Autorxs-favs.html">Ver todxs</a></li>
-                </ul>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="Crear-funzi.html" role="button">Crear un Funzi</a>
-              </div>
-              <div class="dropdown mt-3">
-                <a class="btn btn-dark" href="Imprentas.html" role="button">Imprentas</a>
-              </div>    
-            </div>
+
+    <nav class="navbar navbar-light bg-light fixed-top">
+
+      <div class="container-fluid">
+        <a class="navbar-brand marca pe-5" href="#">Funzis</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¡Hola Vic!</h5>
+            
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div>
+            <img class="foto_perfil ps-3" src="images/Foto_Perfil.PNG" alt="Foto_Perfil">
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="index.html" role="button">Home</a>
+                </div>              
+              </li>
+              <li class="nav-item">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="Mi-Perfil.html" role="button">Mi Perfil</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Funzis Favs
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Buenas noches, pun pun</a></li>
+                    <li><a class="dropdown-item" href="#">Uzumaki</a></li>
+                    <li><a class="dropdown-item" href="Funzis-favs.html">Ver todos</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Autorxs Favoritos
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Junji Ito</a></li>
+                    <li><a class="dropdown-item" href="#">Inio Asano</a></li>
+                    <li><a class="dropdown-item" href="Autorxs-favs.html">Ver todxs</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="Crear-funzi.html" role="button">Subir un Funzi</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <div class="dropdown mt-3">
+                  <a class="btn btn-dark" href="Imprentas.html" role="button">Imprentas</a>
+                </div> 
+              </li>
+                
+            </ul>
+            <form class="d-flex pt-3">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-10 marca">Funzis</div>
-        <div class="input-group col-lg-8 col-md-12 col-sm-12">
-            <input type="text" class="form-control" placeholder="Funzi" aria-label="Username" aria-describedby="input-group-button-right">
-            <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Buscar</button>
-          </div>
-    </div>
-</header>
+
+      </div>
+    </nav>
+
+
 
     <!--Fin Header-->
 
     <!--Seccion cards zines-->
 
-    <section class="container section_zines">
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-md-1 g-4" style="width: 60rem;">
+    <section class="container section_zines mt-5 pt-5">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4" style="width: 60rem;">
             <div class="col">
               <div class="card w-80">
                 <img src="images/buenas_noches_pun_pun.jpeg" class="card-img-top" alt="fanzi_punPun">
                 <div class="card-body">
-                  <h5 class="card-title fuente-card-titulo">Buenas noches, pun pun <button class="boton-like"><ion-icon size="small" name="heart-sharp"></ion-icon></button><p>Inio Asano</p></h5>
+                  <h5 class="card-title fuente-card-titulo">Buenas noches, pun pun<p>Inio Asano</p></h5>
                   <p class="card-text fuente-card-texto">La historia sigue a Onodera Punpun, un niño normal que debe hacer frente a sus amigos y familia disfuncional, su interés amoroso, su adolescencia en sentido contrario y su mente hiperactiva. A medida que la vida de Punpun se vuelve cada vez más caótica, comienza a tratar temas del existencialismo y nihilismo. </p>
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">#Manga #Seinen</li>
+                  <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="heart-outline"></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="share-social-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
                 </ul>
                 <div class="card-footer">
                   <a href="#" class="card-link">Leer</a>
@@ -128,6 +163,7 @@
                  </div>
                  <ul class="list-group list-group-flush">
                      <li class="list-group-item">#Zine #Feminismo</li>
+                     <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="heart-outline"></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="share-social-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
                 </ul>
                 <div class="card-footer">
                      <a href="https://issuu.com/andreagalaxina/docs/bpd_011_-_feminizine_1" class="card-link">Leer</a>
@@ -144,6 +180,7 @@
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">#Zine #Feminismo</li>
+                    <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="heart-outline"></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="share-social-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
                 </ul>
                 <div class="card-footer">
                     <a href="https://archive.org/details/odioalosfachas" class="card-link">Leer</a>
@@ -160,6 +197,7 @@
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">#Manga #Seinen</li>
+                    <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="heart-outline"></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="share-social-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
                 </ul>
                 <div class="card-footer">
                     <a href="#" class="card-link">Leer</a>
@@ -176,6 +214,7 @@
               </div>
               <ul class="list-group list-group-flush">
                   <li class="list-group-item">#Zine </li>
+                  <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="heart-outline"></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="share-social-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
               </ul>
               <div class="card-footer">
                   <a href="https://issuu.com/andreagalaxina/docs/fuerzas_absurdas_6_-_catty" class="card-link">Leer</a>
@@ -192,13 +231,13 @@
               </div>
               <ul class="list-group list-group-flush">
                   <li class="list-group-item">#Zine </li>
+                  <li class="list-group-item botones-sociales"><button type="button" class="btn btn-light"><ion-icon size="small" name="heart-outline"></ion-icon></button><button type="button" class="btn btn-light"><ion-icon size="small" name="share-social-outline"></ion-icon></button><button type="button" class="btn btn-light" ><ion-icon size="small" name="chatbox-ellipses-outline"></ion-icon></button></li>
               </ul>
               <div class="card-footer">
                   <a href="https://libroswalden.com/products/cesar-prieto-manuel-moreno-y-abel-cuevas-papeles-subterraneos" class="card-link">Leer</a>
             </div>
           </div>
         </div>
-
 
     </section>
 
